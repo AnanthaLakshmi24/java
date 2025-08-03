@@ -8,13 +8,19 @@ class Codechef
 	{
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
-		int p = sc.nextInt();
-		int q = sc.nextInt();
-		int r = sc.nextInt();
-		int s = sc.nextInt();
-		int k = p*r;
-		int l = q*s;
-		System.out.println(Math.max(k,l));
-        sc.close();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
+		int d = sc.nextInt();
+		int e = a*c;
+		int f = b*d;
+		if(e>f)
+		{
+		    System.out.println(e);
+		}
+		else{
+		    System.out.println(f);
+		}
+
 	}
 }
